@@ -22,3 +22,17 @@ int main(){
 	
 	return 0;
 }
+
+void printO(int N, int M){
+    if(N>0&&M>0){
+    for(int i=0; i<N; i++){
+        for(int z=0; z<M; z++){
+            cout << "O";
+        }
+        cout << "\n";
+    }
+    }
+    else{
+    cout << "Invalid input";
+    }
+}
